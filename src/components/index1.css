@@ -1,0 +1,101 @@
+/* .btn1{
+    width: 200px;
+} */
+.container {
+  background-color: white;
+  border-radius: 10px;
+  width: 1200px;
+  margin: 70px auto;
+  height: 550px;
+}
+.first_box {
+  display: flex;
+  align-items: center;
+  padding: 20px 0 0 30px;
+}
+.img {
+  margin-top: 4px;
+}
+.img:hover {
+  transform: scale(0.9);
+}
+.hr {
+  width: 0px;
+  margin-right: 558px;
+  animation: example infinite;
+  animation-duration: 4s;
+}
+@keyframes example {
+100%{
+    width: 600px;
+   
+}
+  }
+.second_box {
+  padding: 2px 0 0 45px;
+}
+.type1 {
+  margin-top: -15px;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+  margin-left: 5px;
+}
+.btn1 {
+  width: 20px;
+  height: 20px;
+  transform: rotate(90deg);
+}
+.btn2 {
+  width: 20px;
+  height: 20px;
+  transform: rotate(-90deg);
+}
+.btn3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: none;
+}
+.box_3 {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d6d6d6;
+  width: 550px;
+  height: 80px;
+  margin: 0 45px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 2px grey;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.box_3:hover {
+  transform: scale(0.98);
+}
+.pizza {
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+}
+.pp {
+  margin-top: -15px;
+}
+.type_3 {
+  margin-left: 18px;
+}
+.count {
+  margin-left: 60px;
+}
+.cost {
+  margin-left: 50px;
+}
+.musor {
+  margin-left: 30px;
+}
+.musor:hover {
+  transform: scale(0.9);
+}
